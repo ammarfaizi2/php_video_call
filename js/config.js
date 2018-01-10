@@ -6,7 +6,7 @@
 'use strict';
 
 
-const appRoot = setAppRoot('video-call-app', 'video-call-app');
+const appRoot = setAppRoot('/', '/');
 const spinnerClass = 'fa fa-spinner faa-spin animated';
 
 function setAppRoot(devFolderName, prodFolderName){
