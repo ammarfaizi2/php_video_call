@@ -6,7 +6,7 @@
 'use strict';
 
 
-const appRoot = setAppRoot('/', '/');
+const appRoot = setAppRoot('', '');
 const spinnerClass = 'fa fa-spinner faa-spin animated';
 
 function setAppRoot(devFolderName, prodFolderName){
